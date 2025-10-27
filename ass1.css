@@ -1,4 +1,4 @@
-div{
+  .first-div{
     border: 2px solid Red;
     padding: 10px;
     margin: 10px;
@@ -7,4 +7,12 @@ div{
     color: white;
     
 
+}
+.second-div{
+    border: 2px solid Green;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: yellow;
+    color: black;
 }

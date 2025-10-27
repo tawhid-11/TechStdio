@@ -1,53 +1,57 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+    <link rel="stylesheet" href="ass1.css">
     <title>Training Registration Form</title>
     <script>
         alert("Please fill out all required fields ");
     </script>
 </head>
+
 <body>
     <h2 style="text-align: center;"> Training Registration Form</h2>
     <form action="/action_page.php" style="text-align: center;">
-        <fieldset>
-            <legend>Personal Information</legend>
-        <label>* Company:</label>
-        <input type="text" name="company" required><br><br>
-        <label>* First Name:</label>
-        <input type="text" name="firstName" required><br><br>
-        <label>* Last Name:</label>
-        <input type="text" name="lastName" required><br><br>
-        <label>* Email Address:</label>
-        <input type="email" name="email" required><br><br>
-        <label>* Title:</label>
-        <input type="text" name="title" required><br><br>
-        <label>* Phone:</label>
-        <input type="tel" name="phone" required><br><br>
-        <label>Confirm  Registration:</label>
-        <input type="checkbox" name="cancel"><br><br>
-         <label>Cancel Registration:</label>
- 
-        <input type="checkbox" name="cancel"><br><br>
-                </fieldset>
-                <br>
-                <div>
-        <label>* 252 Training Session 2010:</label>
-        <select name="trainingSession" required>
-            <option value="">--Select a date--</option>
-            <option value="Jan">January</option>
-            <option value="Feb">February</option>
-            <option value="Mar">March</option>
-            <option value="Apr">April</option>
-            <option value="May">May</option>
-            <option value="Jun">June</option>
-            <option value="Jul">July</option>
-            <option value="Aug">August</option>
-            <option value="Sep">September</option>
-            <option value="Oct">October</option>
-            <option value="Nov">November</option>
-            <option value="Dec">December</option>
-        </select><br><br>
-        <hr>
+        <div class="first-div">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label>* Company:</label>
+                <input type="text" placeholder="Company Name" name="company" required><br><br>
+                <label>* First Name:</label>
+                <input type="text" name="firstName" required><br><br>
+                <label>* Last Name:</label>
+                <input type="text" name="lastName" required><br><br>
+                <label>* Email Address:</label>
+                <input type="email" name="email" required><br><br>
+                <label>* Title:</label>
+                <input type="text" name="title" required><br><br>
+                <label>* Phone:</label>
+                <input type="tel" name="phone" required><br><br>
+                <label>Confirm Registration:</label>
+                <input type="checkbox" name="cancel"><br><br>
+                <label>Cancel Registration:</label>
+                <input type="checkbox" name="cancel"><br><br>
+            </fieldset>
+            <br>
+        </div>
+        <div class="second-div">
+            <label>* 252 Training Session 2010:</label>
+            <select name="trainingSession" required>
+                <option value="">--Select a date--</option>
+                <option value="Jan">January</option>
+                <option value="Feb">February</option>
+                <option value="Mar">March</option>
+                <option value="Apr">April</option>
+                <option value="May">May</option>
+                <option value="Jun">June</option>
+                <option value="Jul">July</option>
+                <option value="Aug">August</option>
+                <option value="Sep">September</option>
+                <option value="Oct">October</option>
+                <option value="Nov">November</option>
+                <option value="Dec">December</option>
+            </select><br><br>
+            <hr>
         </div>
         <label>* Job Function:</label><br>
         <input type="radio" name="jobFunction" value="Campaign Management" required> Campaign Management<br>
@@ -64,4 +68,5 @@
         <input type="submit" style="color: green" value="Submit">
     </form>
 </body>
+
 </html>

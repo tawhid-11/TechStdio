@@ -1,0 +1,19 @@
+body{
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+
+
+}
+tr,th{
+  border-collapse: collapse;
+  background-color: lightgrey ;
+  color: black  ;
+
+}
+td{
+  border-collapse: collapse;
+  background-color: white ;
+  color: black  ;
+
+}

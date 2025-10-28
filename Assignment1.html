@@ -2,11 +2,8 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="ass1.css">
+    <link rel="stylesheet" href="Assignment1.css">
     <title>Training Registration Form</title>
-    <script>
-        alert("Please fill out all required fields ");
-    </script>
 </head>
 
 <body>
@@ -16,7 +13,7 @@
             <fieldset>
                 <legend>Personal Information</legend>
                 <label>* Company:</label>
-                <input type="text" placeholder="Company Name" name="company" required><br><br>
+                <input type="text" name="company" placeholder="provide company name" required><br><br>
                 <label>* First Name:</label>
                 <input type="text" name="firstName" required><br><br>
                 <label>* Last Name:</label>
@@ -53,19 +50,26 @@
             </select><br><br>
             <hr>
         </div>
-        <label>* Job Function:</label><br>
-        <input type="radio" name="jobFunction" value="Campaign Management" required> Campaign Management<br>
-        <input type="radio" name="jobFunction" value="CRM Administration"> CRM Administration<br>
-        <input type="radio" name="jobFunction" value="Email Deployment"> Email Deployment<br>
-        <input type="radio" name="jobFunction" value="Partner"> Partner<br>
-        <input type="radio" name="jobFunction" value="Employee"> Employee<br><br>
-        <hr>
-        <label>Dietary Requirements:</label>
-        <input type="text" name="dietary"><br><br>
-        <label>Expectations?:</label><br>
-        <textarea name="expectations" rows="4" cols="40"></textarea><br><br>
+        <div class="third-div">
+            <label>* Job Function:</label><br>
+            <input type="radio" name="jobFunction" value="Campaign Management" required> Campaign Management<br>
+            <input type="radio" name="jobFunction" value="CRM Administration"> CRM Administration<br>
+            <input type="radio" name="jobFunction" value="Email Deployment"> Email Deployment<br>
+            <input type="radio" name="jobFunction" value="Partner"> Partner<br>
+            <input type="radio" name="jobFunction" value="Employee"> Employee<br><br>
+            <hr>
+        </div>
+        <div class="fourth-div">
+            <label>Dietary Requirements:</label>
+            <input type="text" name="dietary"><br><br>
+            <label>Expectd salary?:</label><br>
+            <textarea name="expectations" placeholder="Prove a expected salary range between 20k to 100k" rows="4"
+                cols="40"></textarea><br><br>
+        </div>
+        <div class="submitting">
+            <input type="submit" value="Confirm">
+        </div>
 
-        <input type="submit" style="color: green" value="Submit">
     </form>
 </body>
 

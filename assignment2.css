@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #9cc3f9, #f5b6d5);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Section layout */
+.contact-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  color: #003366;
+  margin-bottom: 40px;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  background: white;
+  border-radius: 15px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Left section */
+.contact-info {
+  flex: 1;
+  min-width: 280px;
+  text-align: left;
+  padding-right: 30px;
+}
+
+.contact-info h3 {
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+.info-item {
+  margin-bottom: 20px;
+}
+
+.info-item h4 {
+  color: #004080;
+  margin-bottom: 5px;
+}
+
+.social-icons a {
+  display: inline-block;
+  background: #003366;
+  color: white;
+  margin-right: 10px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  background: #007acc;
+}
+
+/* Right section (form) */
+.contact-form {
+  flex: 1;
+  min-width: 280px;
+  text-align: left;
+}
+
+.contact-form h3 {
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+.contact-form button {
+  margin-top: 15px;
+  padding: 12px 20px;
+  border: none;
+  background: linear-gradient(to right, #007acc, #66ccff);
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: linear-gradient(to right, #005fa3, #4da6ff);
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #bbb;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+footer a {
+  color: #66ccff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

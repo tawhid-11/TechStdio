@@ -1,0 +1,26 @@
+table, tr, td, th{
+  border-collapse: collapse;
+  border: 1px solid black;
+  padding:10px;
+  margin:10px;
+}
+table{
+  margin-bottom:40px;
+  
+}
+ul{
+  list-style-type: square;
+  padding: 20px;
+  list-style:none;
+  text-align:center;
+}
+ul li{
+  display:inline-block;
+
+}
+a{
+  color: white;
+  padding: 50px 20px;
+  margin:20px;
+  background: tomato;
+}

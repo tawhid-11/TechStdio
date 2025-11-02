@@ -1,0 +1,15 @@
+label{
+  display:block;
+}
+.one{
+  display: inline-block;
+}
+.two{
+  display: inline-block;
+  margin-right: 20px;
+}
+vidoe{
+  width:800%; 
+  height:auto;
+
+}

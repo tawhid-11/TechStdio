@@ -1,9 +1,11 @@
 body{
   background: url(picture-lake.jpg);
-ba
 }
-h1{
-  color: aqua;
-  color: #3333eb;
-    color: #3333ebe7;
+div{
+  background-color: rgba(43, 191, 240, 0.76);
+  background-image: url(messi.jpg);
+  background-size: 100px 100px;
+  background-repeat: repeat-y;
+  background-position: center;
+  background: #8e44ad url(messi.jpg) no-repeat center;
 }

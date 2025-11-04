@@ -1,11 +1,14 @@
-body{
-  background: url(picture-lake.jpg);
-}
-div{
-  background-color: rgba(43, 191, 240, 0.76);
-  background-image: url(messi.jpg);
-  background-size: 100px 100px;
-  background-repeat: repeat-y;
-  background-position: center;
-  background: #8e44ad url(messi.jpg) no-repeat center;
+h1{
+  border-style:outset;
+  border-width: 20px;
+  border-color:blue;
+  text-align: center;
+  
+  border-bottom: 20px solid red;
+  border-left: 20px solid green;
+  border-right: 20px solid purple;
+  Border-top: 20px solid orange;
+  border-top-style: dashed;
+  border-bottom-style: dotted;
+  border-radius: 15px;
 }

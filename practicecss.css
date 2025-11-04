@@ -1,14 +1,24 @@
-h1{
-  border-style:outset;
-  border-width: 20px;
-  border-color:blue;
-  text-align: center;
+*{
+  margin:0;
+  padding:0;
+}
+.parent{
+  width: 300px;
   
-  border-bottom: 20px solid red;
-  border-left: 20px solid green;
-  border-right: 20px solid purple;
-  Border-top: 20px solid orange;
-  border-top-style: dashed;
-  border-bottom-style: dotted;
+  background: blue;
+  color:azure;
+  margin-top:40px;
+  margin-left:40px;
+  padding-left:20px;
+  padding-top:20px;
+  padding-right:80px;
+ 
   border-radius: 15px;
+}
+.child{
+  width:100px;
+  background: red;
+ margin-top:20px;
+ padding-right:40px;
+ padding-bottom: 20px;
 }

@@ -1,0 +1,46 @@
+/* h1=selector */
+h1{
+  color: red;/*Declaration*/
+  font-size: 36px;
+}
+p{
+  color:green;
+  font-size:18px;
+}
+div{
+  width: 200px;
+  height:200px;
+  background-color:#e90a0a;
+  margin-bottom: 20px;
+}
+div p{
+  color: white;
+}
+.texta{
+color:rgb(207, 248, 23);
+text-align: right;
+background: yellowgreen;
+text-align: center;
+
+
+}
+.textb{
+    font-size: 60px;
+  color: yellow;
+
+}
+.firstdiv {
+  background:blue;
+  text-align : center;
+  
+
+}
+.firstdiv p{
+  color:tomato;
+}
+#big-div, #big-div-2{
+  width:400px;
+  height:400px;
+  background-color: rgb(8, 8, 8);
+
+}

@@ -3,22 +3,12 @@
   padding:0;
 }
 .parent{
-  width: 300px;
-  
   background: blue;
-  color:azure;
-  margin-top:40px;
-  margin-left:40px;
-  padding-left:20px;
-  padding-top:20px;
-  padding-right:80px;
+  width: 24%;
+  color:white;
+  margin:1%;
+  padding: 2%;
+  border: 0.5em solid rgb(250, 7, 7);
+  float: left;
  
-  border-radius: 15px;
-}
-.child{
-  width:100px;
-  background: red;
- margin-top:20px;
- padding-right:40px;
- padding-bottom: 20px;
 }

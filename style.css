@@ -1,0 +1,18 @@
+body{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+}
+a[target]{
+  text-decoration:none;
+  color:aquamarine;
+}
+a[target=_self]{
+  text-decoration:none;
+  color:red;
+
+}
+a[target='pro']{
+  font-weight:400;
+  color:magenta;
+
+}

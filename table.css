@@ -1,19 +1,23 @@
 body{
   font-family: Arial, sans-serif;
-  background-color: black;
+  background-color: rgb(14, 0, 0);
   color: white;
 
 
 }
-tr,th{
+table, tr,th{
   border-collapse: collapse;
-  background-color: lightgrey ;
+  background-color: rgb(252, 248, 4) ;
   color: black  ;
+  padding: 20px;
+  border-collapse:collapse;
+  border-color: 2px;;
 
 }
 td{
   border-collapse: collapse;
-  background-color: white ;
+  background-color: rgb(252, 7, 7) ;
   color: black  ;
+  padding:10px;
 
 }

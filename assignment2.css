@@ -130,3 +130,19 @@ footer a:hover {
   text-decoration-color: #9c0afd;
   background: linear-gradient(to right, #ff5a76, #af02af);
 }
+
+@media (max-width: 768px) {
+  footer{
+     margin-left: 0px !important;
+  margin-right: 0px !important;
+  }
+  
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+   footer{
+     margin-left: 0px !important;
+  margin-right: 0px !important;
+  }
+}

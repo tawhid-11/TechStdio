@@ -1,9 +1,20 @@
 #id{
   list-style-type: upper-roman;
-  color : green;
+  color : rgb(203, 204, 142);
+  background: red;
+  display: inline-block;
+}
+#id:hover{
+  background:linear-gradient(to right, red,blue);
 }
 ul{
   list-style-type: square;
-  list-style-type: url(hand.png);
-  color : blue;
+  list-style-type: upper-roman;
+  color : rgb(255, 0, 0);
+  background: yellow;
+  padding:20px;
+}
+li{
+  background: navy;
+  padding:20px;
 }

@@ -54,15 +54,16 @@ text-align: center;
   margin-bottom: 15px;
 }
 .form_area input[type="button"]{
- background: #1877f2;
+ background: #0084ff;
  border: 1px solid #1877f2;
  color:#fff;
  font-size: 20px;
  font-weight: bold;
  cursor: pointer;
+ 
 }
 .form_area a{
-color: #1877f2;
+color: #0570fd;
 font-size: 14px;
 font-weight: bold;
 text-decoration: none;
@@ -71,6 +72,7 @@ display: inline-block;
 }
 .form_area a:hover{
 text-decoration: underline;
+color:#000;
 }
 .form_area button[type="button"]{
  background: #03bd22;
@@ -94,4 +96,3 @@ form_area p a{
 color: #1c1e21;
 text-align: center;
 }
-#

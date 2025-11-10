@@ -1,0 +1,10 @@
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  margin:0;
+}
+#test{
+  background: blue;
+  width:max( 70%, 700px);
+   width:min( 70%, 700px);
+  margin: 0 auto;
+}

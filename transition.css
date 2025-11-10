@@ -1,0 +1,30 @@
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  margin:0;
+}
+.one{
+background:#f80000;
+border: 5px solid #5d00ff;
+width: 100px;
+height: 100px;
+margin-top: 20-x;
+margin-left: 15px;
+transition: width 0.5s, height 3s;
+}
+.one:hover{
+  width:400px;
+  height: 350px;
+  background:green;
+  border:5px solid rgb(0, 0, 0);
+}
+a{
+  font-size:35px;
+  font-weight: bold;
+  color: rgb(98, 0, 255);
+  transition: 1s;
+}
+a:hover{
+  color:rgb(255, 0, 0);
+  transition: 0.5s;
+
+}

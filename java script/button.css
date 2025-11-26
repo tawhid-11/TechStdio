@@ -1,0 +1,15 @@
+body{
+  text-align: center;
+}
+button{
+  background: red;
+  padding:20px 45px;
+  color: white;
+  border-radius: 10px;
+  font-size: 18px;
+  border: 0;
+  transition: 0.5s;
+}
+button:hover{
+  background: #262626;
+}

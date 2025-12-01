@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SportsHub Login Page</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="login-wrapper">
+    <div class="login-card">
+
+      <h2>SportsHub</h2>
+      <p class="brand-text">Manage Tournaments • Players • Matches</p>
+
+      <div id="alertBox"></div>
+
+      <form id="loginForm">
+
+        <div class="mb-3">
+          <label class="form-label">Username</label>
+          <input type="text" id="username" class="form-control" placeholder="Enter username" required>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Password</label>
+          <input type="password" id="password" class="form-control" placeholder="Enter password" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100">Login</button>
+      </form>
+
+      <p class="text-center mt-3 text-muted">
+        © 2025 SportsHub | All Rights Reserved
+      </p>
+
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("loginForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      let username = document.getElementById("username").value.trim();
+      let password = document.getElementById("password").value.trim();
+      let alertBox = document.getElementById("alertBox");
+
+      fetch("users.json")
+        .then(res => res.json())
+        .then(data => {
+          const user = data.find(
+            (u) => u.username === username && u.password === password
+          );
+
+          if (user) {
+            alertBox.innerHTML =
+              `<div class="alert alert-success">Login Successful! Redirecting...</div>`;
+
+            localStorage.setItem("sportsHubUser", JSON.stringify(user));
+
+            setTimeout(() => {
+              window.location.href = "dashboard.html";
+            }, 1500);
+
+          } else {
+            alertBox.innerHTML =
+              `<div class="alert alert-danger">Invalid username or password.</div>`;
+          }
+        })
+        .catch(() => {
+          alertBox.innerHTML =
+            `<div class="alert alert-danger">Failed to load user data.</div>`;
+        });
+    });
+  </script>
+
+</body>
+</html>

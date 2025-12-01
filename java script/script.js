@@ -14,3 +14,5 @@ menuItem.forEach(function(i){
   i.style.color= 'red';
   i.style.fontsize='24px';
 });
+
+const cusclass= document.getElementsByClassName('nav-link');
